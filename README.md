@@ -8,3 +8,10 @@ Uses NCURSES for display. (NOT COMPLETED)
 All Operations Unit-Tested (Using Test ROMs).
 
 Display and Keyboard input to be worked on.
+
+To run
+
+```
+gcc -o chip8 chip.c -lncurses
+./chip8 ROM_FILE
+```
